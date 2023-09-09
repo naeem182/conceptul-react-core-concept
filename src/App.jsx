@@ -83,11 +83,11 @@ function App() {
         <OneCard></OneCard> */}
         {/* <OneCard></OneCard> */}
         {
-          data.map((iteam) => (<OneCard title={iteam.name}></OneCard>)
+          data.map((iteam) => (<OneCard title={iteam.name} key={iteam.value} />)
 
 
           )}
-      </div>
+      </div >
 
     </>
   )
