@@ -94,7 +94,7 @@ function App() {
       <ChildrenExmple>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, est?</p>
       </ChildrenExmple>
-      <div className='text-center text-2xl border-2 border-purple-400 mb-9'>
+      <div>
         <UseStateHook></UseStateHook>
       </div>
     </>

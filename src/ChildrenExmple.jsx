@@ -6,9 +6,9 @@ const ChildrenExmple = ({ children }) => {
         <div>
             {children}
             {
-                names.map((iteam) =>
-                    (<h2>{iteam}</h2>)
-                )
+                names.map((iteam) => (
+                    <h2>{iteam}</h2>
+                ))
             }
         </div>
     )
