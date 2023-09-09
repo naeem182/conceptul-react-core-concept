@@ -54,16 +54,27 @@ function UseStateHook() {
 
     const [data, setData] = useState(arrayOfObjects);
     console.log(data);
+    //removea all
+    const handleRemoveAll = () => {
+        setData([])
+    }
+    //single remove
+    const handleSingleRemove = (name) => {
+        const filterData = data.filter((iteam) => iteam.name !== name);
+        setData(filterData)
+    }
 
     return (
         <div className='text-4xl text-center my-2'>
-            {arrayOfObjects.map((item) => (
+            {data?.map((item, index) => (
 
-                < div key={item.name} >
+                < div key={index} >
                     <h1>{item.name}</h1>
+                    <button onClick={() => handleSingleRemove(item.name)} className='btn btn-primary'>remove</button>
                 </div>
             ))
             }
+            <button onClick={handleRemoveAll} className='btn btn-primary'> All delete</button>
         </div >
     );
 }
