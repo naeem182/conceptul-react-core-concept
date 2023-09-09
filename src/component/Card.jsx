@@ -5,13 +5,18 @@ import Views from './Views'
 
 function Card() {
     return (
-        <div>
-            <h1>Card</h1>
-            <Title></Title>
+
+        <div className="card w-full bg-base-100 shadow-xl">
             <Image></Image>
-            <Views></Views>
+            <Title></Title>
 
         </div>
+
+
+
+
+
+
     )
 }
 

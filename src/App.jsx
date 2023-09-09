@@ -36,8 +36,18 @@ function App() {
       {/* <Greetings></Greetings>
       <Greetings />
       <button className=' btn btn-secondary'>click me</button> */}
-      <Card></Card>
+
       {/* <Title></Title> */}
+
+      < >
+        <h1 className='text-4xl text-center'>WellCome to our Card</h1>
+        <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 px-12'>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+        </div>
+      </>
 
     </>
   )
