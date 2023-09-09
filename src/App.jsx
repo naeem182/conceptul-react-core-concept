@@ -7,6 +7,7 @@ import './App.css'
 import './Title.css'
 import OneCard from './component/OneCard'
 import ChildrenExmple from './ChildrenExmple'
+import UseStateHook from './UseStateHook'
 
 
 
@@ -93,6 +94,9 @@ function App() {
       <ChildrenExmple>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, est?</p>
       </ChildrenExmple>
+      <div className='text-center text-2xl border-2 border-purple-400 mb-9'>
+        <UseStateHook></UseStateHook>
+      </div>
     </>
   )
 }
