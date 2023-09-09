@@ -6,6 +6,7 @@ import './App.css'
 // import Title from './component/Title'
 import './Title.css'
 import OneCard from './component/OneCard'
+import ChildrenExmple from './ChildrenExmple'
 
 
 
@@ -88,7 +89,10 @@ function App() {
 
           )}
       </div >
-
+      <h1>................</h1>
+      <ChildrenExmple>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, est?</p>
+      </ChildrenExmple>
     </>
   )
 }
