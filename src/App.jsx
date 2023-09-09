@@ -8,6 +8,7 @@ import './Title.css'
 import OneCard from './component/OneCard'
 import ChildrenExmple from './ChildrenExmple'
 import UseStateHook from './UseStateHook'
+import USeEffect from './component/USeEffect'
 
 
 
@@ -96,6 +97,9 @@ function App() {
       </ChildrenExmple>
       <div>
         <UseStateHook></UseStateHook>
+      </div>
+      <div>
+        <USeEffect></USeEffect>
       </div>
     </>
   )
