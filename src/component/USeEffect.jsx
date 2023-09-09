@@ -13,7 +13,7 @@ const USeEffect = () => {
     };
     useEffect(() => {
         console.log("running from useEffet");
-    }, [setValue]);
+    }, []);
 
     return (
         <div className="text-4xl text-center">

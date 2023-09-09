@@ -9,6 +9,7 @@ import OneCard from './component/OneCard'
 import ChildrenExmple from './ChildrenExmple'
 import UseStateHook from './UseStateHook'
 import USeEffect from './component/USeEffect'
+import FetchData from './component/FetchData'
 
 
 
@@ -100,6 +101,9 @@ function App() {
       </div>
       <div>
         <USeEffect></USeEffect>
+      </div>
+      <div>
+        <FetchData></FetchData>
       </div>
     </>
   )
