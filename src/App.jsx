@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './component/Card'
 import Title from './component/Title'
+import './Title.css'
 
 
 // //comonent

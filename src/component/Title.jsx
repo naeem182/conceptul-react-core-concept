@@ -1,11 +1,12 @@
 import React from 'react'
 import Views from './Views'
 
-function Title() {
+
+const Title = () => {
     return (
         <div className="card-body">
 
-            <h2 className="card-title">
+            <h2 className="card-title My_custome_title">
                 Shape of You
                 <div className="badge badge-secondary">NEW</div>
             </h2>
