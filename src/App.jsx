@@ -56,24 +56,37 @@ import OneCard from './component/OneCard'
 //   )
 // }
 function App() {
-  let title = 'my new title';
-  let views = '111k';
-  let another_title = "another new title";
-  const myobj = {
-    title: 'my third title',
+  // let title = 'my new title';
+  // let views = '111k';
+  // let another_title = "another new title";
+  // const myobj = {
+  //   title: 'my third title',
 
-  };
+  // };
+
+  const data = [
+    { name: 'Item 1', value: 2 },
+    { name: 'Item 2', value: 4 },
+    { name: 'Item 3', value: 6 },
+    { name: 'Item 4', value: 8 },
+    { name: 'Item 5', value: 10 }
+  ];
 
   return (
     <>
 
       <h1 className='text-4xl text-center'>WellCome to our Card</h1>
       <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 px-12'>
-        <OneCard title={title} views={views}></OneCard>
+        {/* <OneCard title={title} views={views}></OneCard>
         <OneCard title={another_title}></OneCard>
         <OneCard title={myobj.title}></OneCard>
-        <OneCard></OneCard>
-        <OneCard></OneCard>
+        <OneCard></OneCard> */}
+        {/* <OneCard></OneCard> */}
+        {
+          data.map((iteam) => (<OneCard title={iteam.name}></OneCard>)
+
+
+          )}
       </div>
 
     </>
